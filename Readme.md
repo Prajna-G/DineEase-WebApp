@@ -1,6 +1,8 @@
 # 🍽️ DineEase
 
-A responsive restaurant website developed using **HTML, CSS, Bootstrap, and JavaScript**. The project provides an intuitive interface for users to explore the restaurant, make reservations, and navigate through authentication and gallery pages.
+Responsive Restaurant Website built using **HTML5, CSS3, Bootstrap, and JavaScript**.
+
+DineEase provides an intuitive interface for users to explore the restaurant, register, log in, make reservations, and browse the gallery through a responsive and user-friendly web experience.
 
 ## 🚀 Live Demo
 
@@ -26,14 +28,16 @@ A responsive restaurant website developed using **HTML, CSS, Bootstrap, and Java
 
 ## 📚 Learning Outcomes
 
-- Built responsive web interfaces using Bootstrap.
-- Implemented multi-page website navigation.
-- Applied client-side form validation using JavaScript.
-- Deployed a static website using GitHub Pages.
+Through this project, I gained practical experience in:
+
+- Building responsive web interfaces using Bootstrap.
+- Creating multi-page website navigation.
+- Implementing client-side form validation using JavaScript.
+- Deploying static websites using GitHub Pages.
 
 ## 🙏 Acknowledgement
 
-This project is based on the **Restaurantly** Bootstrap template and has been customized for educational and portfolio purposes.
+This project is based on the **Restaurantly** Bootstrap template by **BootstrapMade** and has been customized for educational and portfolio purposes.
 
 ## 👩‍💻 Author
 
