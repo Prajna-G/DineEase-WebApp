@@ -50,25 +50,26 @@ background-color: rgba(0, 0, 0.1, 0.5);
       <form onsubmit="return validateForm()">
             <center><h1>SIGN UP</h1></center>
             Email: <br><br>
-            <input type="text" id="email" name="eml" size="100px" class="transparent-textfield">  
+            <input type="email" id="email" name="eml" class="transparent-textfield">  
             <br><br>
             UserName: <br><br>
-            <input type="text" id="username" name="uname" size"100px" class="transparent-textfield">
+            <input type="text" id="username" name="uname" size="100px" class="transparent-textfield">
             <br><br> 
             Create Password: <br><br>
-            <input type="text" id="password" name="cpwd"  size="100px" class="transparent-textfield">
+            <input type="password" id="password" name="cpwd" class="transparent-textfield">
             <br><br>
-            <input type="submit" value="Sigh Up"class="transparent-button">
+            <input type="submit" value="Sign Up"class="transparent-button">
             <input type="reset" value="Reset"class="transparent-button">
             </form>
 
 </aside>
 <script>
   function validateForm() {
-   var username = document.getElementById("username").value;
+    var email = document.getElementById("email").value;
+    var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
 
-    if (username === "" || password === "") {
+    if (email === "" || username === "" || password === "") {
         alert("Please fill in all fields");
         return false;
     }
